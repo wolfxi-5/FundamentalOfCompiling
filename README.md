@@ -2,7 +2,9 @@
 
 编译原理实验
 
-DFA的化简：SimplifiedDFA.java
+#DFA的化简：SimplifiedDFA.java
+
+
 【问题描述】DFA化简问题的一种描述是：
 编写一个程序，输入一个确定的有穷自动机（DFA），输出与DFA等价的最简的确定有穷自动机（DFA）。
 【基本要求】设置DFA初始状态X，终态Y，过程态用数字表示：0 1 2 3………

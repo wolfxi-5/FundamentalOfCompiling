@@ -81,7 +81,7 @@ Y Y-a->0 Y-b->X
 if	IFTK	
 
 
--	MINU	
+\-	MINU	
 
 
 = 	ASSIGN
@@ -93,7 +93,7 @@ if	IFTK
 else	ELSETK
 
 
-*	MULT
+\*	MULT
 
 ;	SEMICN
 
@@ -142,11 +142,18 @@ scanf	SCANFTK
 
 > 	GRE 	
 
+\[	LBRACK
 
-[	LBRACK
-char	CHARTK	
-printf	PRINTFTK	
+
+char	CHARTK
+
+
+printf	PRINTFTK
+
+
 >=	GEQ
+
+
 ]	RBRACK
 
 
@@ -165,7 +172,7 @@ return	RETURNTK
 main	MAINTK
 
 
-+	PLUS  
+\+	PLUS  
 	
 != 	NEQ
 

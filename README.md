@@ -59,11 +59,25 @@ Y Y-a->0 Y-b->X
 
 
 
-# 词法分析：LexicalAnalysis.jav
+
+
+
+
+# 词法分析：LexicalAnalysis.java
+
+
 单词类别码 单词的字符/字符串形式(中间仅用一个空格间隔)
+
+
 单词的类别码请统一按如下形式定义：
+
+
 单词名称	类别
+
+
 标识符	IDENFR	
+
+
 if	IFTK	
 -	MINU	
 = 	ASSIGN
@@ -99,8 +113,18 @@ main	MAINTK
 +	PLUS	
 != 	NEQ
 }	RBRACE
-【输入形式】testfile.txt中的符合文法要求的测试程序。
-【输出形式】要求将词法分析结果输出至output.txt中。
 
-注意
+
+## 【输入形式】
+
+testfile.txt中的符合文法要求的测试程序。
+
+
+## 【输出形式】
+
+要求将词法分析结果输出至output.txt中。
+
+## 存在问题
+
+
 1.只能识别常量，其他变量没有识别实现

@@ -1,6 +1,6 @@
 # FundamentalOfCompiling
 
-编译原理实验
+# **编译原理实验**
 
 # DFA的化简：SimplifiedDFA.java
 
@@ -79,39 +79,97 @@ Y Y-a->0 Y-b->X
 
 
 if	IFTK	
+
+
 -	MINU	
+
+
 = 	ASSIGN
+
+
 整型常量	INTCON	
-else	ELSETK	
-*	MULT	
+
+
+else	ELSETK
+
+
+*	MULT
+
 ;	SEMICN
+
+
 字符常量	CHARCON
+
+
 do	DOTK	
+
+
 /	DIV
+
+
 ,	COMMA
-字符串	STRCON	
+
+
+字符串	STRCON
+
+
 while	WHILETK
+
+
 < 	LSS
+
+
 (	LPARENT
+
+
 const	CONSTTK
+
+
 for	FORTK
+
+
 <=	LEQ
+
+
 )	RPARENT
+
+
 int	INTTK
+
+
 scanf	SCANFTK
-> 	GRE
+
+
+> 	GRE 	
+
+
 [	LBRACK
 char	CHARTK	
 printf	PRINTFTK	
 >=	GEQ
 ]	RBRACK
-void	VOIDTK	
-return	RETURNTK	
+
+
+void	VOIDTK
+
+
+return	RETURNTK
+
+
 == 	EQL
+
+
 {	LBRACE
-main	MAINTK	
-+	PLUS	
+
+
+main	MAINTK
+
+
++	PLUS  
+	
 != 	NEQ
+
+
 }	RBRACE
 
 

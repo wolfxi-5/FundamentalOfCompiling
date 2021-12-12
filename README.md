@@ -2,7 +2,7 @@
 
 编译原理实验
 
-#DFA的化简：SimplifiedDFA.java
+# DFA的化简：SimplifiedDFA.java
 
 
 【问题描述】DFA化简问题的一种描述是：

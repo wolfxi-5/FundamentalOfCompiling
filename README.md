@@ -140,7 +140,7 @@ int	INTTK
 scanf	SCANFTK
 
 
-> 	GRE 	
+\> 	GRE 	
 
 \[	LBRACK
 
@@ -151,7 +151,7 @@ char	CHARTK
 printf	PRINTFTK
 
 
->=	GEQ
+\>=	GEQ
 
 
 ]	RBRACK
